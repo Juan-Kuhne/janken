@@ -1,0 +1,83 @@
+:root {
+    --rock: url(https://upload.wikimedia.org/wikipedia/commons/2/2a/Fist.svg);
+    --paper: url(https://images.vexels.com/media/users/3/158033/isolated/lists/ff6f06ccc5444b31090f5dc56279d1ef-hand-palm-silhouette-icon.png);
+    --scissors: url();
+}
+
+body{
+    background: url(https://www.teahub.io/photos/full/97-977563_abstract-gaming-background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+
+.game {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.divisor {
+    color: #fff;
+    font-size: 12rem;
+    text-align: center;
+    width: 10%;
+}
+
+.player1 {
+    width: 40%;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player1 .player {
+    background: url(https://www.seekpng.com/png/detail/506-5061704_cool-profile-avatar-picture-cool-picture-for-profile.png) no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 30vh;
+    margin-left: 5vw;
+}
+
+.player1 .play {
+    background: var(--rock) no-repeat;
+    background-size: contain;
+    color: white;
+    font-size: 3rem;
+    filter: invert(1);
+    width: 35%;
+    height: 30vh;
+}
+
+.player2 {
+    width: 40%;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.player2 .play {
+    background: var(--paper) no-repeat;
+    background-size: contain;
+    color: white;
+    filter: invert(1);
+    font-size: 3rem;
+    width: 35%;
+    height: 30vh;
+}
+
+.player2 .player {
+    background: url(https://c.tenor.com/uQNoWGXo9VwAAAAd/profile-picture-discord.gif) no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 30vh;
+    margin-left: 5vw;
+}
