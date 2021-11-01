@@ -2,6 +2,7 @@
     --rock: url(https://upload.wikimedia.org/wikipedia/commons/2/2a/Fist.svg);
     --paper: url(https://images.vexels.com/media/users/3/158033/isolated/lists/ff6f06ccc5444b31090f5dc56279d1ef-hand-palm-silhouette-icon.png);
     --scissors: url(https://freesvg.org/img/Comic-Hand-Peace-Sign.png);
+    --intg: url(images/interrogation.gif)
 }
 
 body{
@@ -20,7 +21,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80vh;
+    height: 50vh;
 }
 
 .divisor {
@@ -32,7 +33,6 @@ body{
 
 .player1 {
     width: 40%;
-    background-color: rgba(0, 0, 0, .2);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,31 +47,30 @@ body{
 }
 
 .player1 .play {
-    background: var(--rock) no-repeat;
+    background: var(--intg) no-repeat;
     background-size: contain;
     color: white;
     font-size: 3rem;
     filter: invert(1);
     width: 35%;
-    height: 30vh;
+    height: 20vh;
 }
 
 .player2 {
     width: 40%;
-    background-color: rgba(0, 0, 0, .2);
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
 }
 
 .player2 .play {
-    background: var(--paper) no-repeat;
+    background: var(--intg) no-repeat;
     background-size: contain;
     color: white;
     filter: invert(1);
     font-size: 3rem;
     width: 35%;
-    height: 30vh;
+    height: 20vh;
 }
 
 .player2 .player {
@@ -80,4 +79,38 @@ body{
     width: 40%;
     height: 30vh;
     margin-left: 5vw;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.choice {
+    /* background: white; */
+    width: 10%;
+    height: 20vh;
+}
+
+.rock {
+    background: var(--rock) no-repeat;
+    background-size: contain;
+    border: 1px dashed blue;
+    filter: invert(1);
+}
+
+.paper {
+    background: var(--paper) no-repeat;
+    background-size: contain;
+    border: 1px dashed blue;
+    filter: invert(1);
+}
+
+.scissors {
+    background: var(--scissors) no-repeat;
+    background-size: contain;
+    border: 1px dashed blue;
+    filter: invert(1);
 }
