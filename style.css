@@ -21,8 +21,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40vh;
+    height: 30vh;
     margin-top: 10vh;
+    margin-bottom: 5vh;
 }
 
 .divisor {
@@ -87,6 +88,7 @@ body{
 .choices {
     display: flex;
     justify-content: center;
+    margin-top: 5vh;
     width: 100%;
 }
 
