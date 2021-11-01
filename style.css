@@ -86,7 +86,6 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;
-    border: 1px solid red;
 }
 
 .choice {
@@ -98,20 +97,17 @@ body{
 .rock {
     background: var(--rock) no-repeat;
     background-size: contain;
-    border: 1px dashed blue;
     filter: invert(1);
 }
 
 .paper {
     background: var(--paper) no-repeat;
     background-size: contain;
-    border: 1px dashed blue;
     filter: invert(1);
 }
 
 .scissors {
     background: var(--scissors) no-repeat;
     background-size: contain;
-    border: 1px dashed blue;
     filter: invert(1);
 }
