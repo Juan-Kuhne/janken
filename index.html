@@ -7,9 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Janken Game</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
 </head>
 
 <body>
+    <!-- <iframe src="result.html" frameborder="0" class="result"></iframe> -->
     <div class="title">Let's the battle begin!!!</div>
     <div class="game">
         <div class="player1">
@@ -22,12 +27,14 @@
             <div class="player"></div>
         </div>
     </div>
-    <div class="title">Choose wisely</div>
+    <div class="title bt-title">Start??</div>
     <div class="choices">
         <div class="choice rock"></div>
         <div class="choice paper"></div>
         <div class="choice scissors"></div>
     </div>
+    <img src="images/fail1.gif" alt="result page" class="result">
+    <button class="reset" onclick="reset()">Play Again!!!</button>
 </body>
 
 </html>
