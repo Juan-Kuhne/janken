@@ -149,11 +149,11 @@ body{
 }
 
 .reset {
-    background-color: cornflowerblue;
-    border: 3px solid lightseagreen;
+    background-color: black;
+    border: 3px solid white;
     border-radius: 14px;
     box-shadow: 2px 2px 8px;
-    color: burlywood;
+    color: white;
     cursor: default;
     font-size: 20px;
     font-weight: bold;
@@ -163,5 +163,13 @@ body{
     left: calc(82vw - 4rem);
     width: 8rem;
     height: 4rem;
-    transition: opacity 7s;
+    transition: opacity 7s, width 1s, height 1s, font-size 1s, top 1s, left 1s;
+}
+
+.reset:hover {
+    width: 9rem;
+    height: 5rem;
+    font-size: 22px;
+    top: 81vh;
+    left: calc(81vw - 4rem);
 }
